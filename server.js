@@ -1,22 +1,26 @@
-// server.js
+// Import necessary modules
+const express = require("express"); // Import Express framework
+const path = require("path"); // Import path module
 
-const express = require("express");
-const app = express();
-const path = require("path");
+const app = express(); // Create an Express app instance
 
-const PORT = 3000;
-const mainGetJS = require("./main-get.js");
+const PORT = 3000; // Define the port number
 
-const API_KEY = require("./public/config.js"); // Import de la clé API
+const mainGetJS = require("./main-get.js"); // Import the main-get.js file
 
-// Définir le dossier public pour les fichiers statiques
+const API_KEY = require("./public/config.js"); // Import the API key
+
+// Set up the public directory for serving static files
 app.use(express.static(path.join(__dirname, "public")));
 
+// Define a route for the root URL
 app.get("/", async (req, res) => {
-  const mainHTML = await mainGetJS(API_KEY); // Passer la clé API en tant qu'argument
-  res.send(mainHTML);
+  // Retrieve HTML content asynchronously from main-get.js file
+  const mainHTML = await mainGetJS();
+  res.send(mainHTML); // Send the retrieved HTML as the response
 });
 
+// Start the server to listen on the defined port
 app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}!`);
 });
