@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+    color: white;
+    font-size: 30px;
+    padding: 10px 20px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    max-height: 100vh;
+    background: #43affc;
+}
+
+.card {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background: whitesmoke;
+    padding: 15px;
+    border-radius: 7px;
+    max-width: 450px;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);    
+}
+
+#city {
+    background: #43affc;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#conditions {
+    font-size: 30px;
+}
+
+img {
+  width: 120px;
+  display: none;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+#infos {
+    margin: 40px;
+    font-size: 20px;
+}
+
+
+.input-container {
+  display: flex;
+  align-items: center; 
+}
+
+.input-container input {
+  width: 400px;
+  border: 1px solid #989898;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  outline: none;
+  font-size: 17px;
+  padding: 15px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  transition: all 0.4s;
+}
+
+.input-container .btn {
+  border: 1px solid #43affc;
+  color: white;
+  background-color: #43affc;
+  outline: none;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 17px; 
+  cursor: pointer;
+  flex: 1; 
+  transition: 0.3s ease;
+  margin-left: 10px;
+  margin-bottom: 30px; 
+}
+
+.input-container .backbtn {
+  border: 1px solid transparent;
+  color: #43affc;
+  background-color: transparent;
+  outline: none;
+  font-size: 30px;
+  border-radius: 10px;
+  padding-right: 100px; 
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-left: 2px;
+  padding-right: 50px; 
+  display: none;
+}
