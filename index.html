@@ -7,20 +7,28 @@
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
+    <!-- Header section -->
     <header><h1>Weather App</h1></header>
+    <!-- Main content section -->
     <main>
+      <!-- Form for city input -->
       <div class="card">
         <form>
+          <!-- Input for entering the city name -->
           <div class="input-container">
             <input type="text" id="searchInput" placeholder="Enter city name" />
+            <!-- Search button -->
             <button class="btn" id="searchButton">Search</button>
+            <!-- Back button -->
             <button class="backbtn" id="backbtn">🡨</button>
           </div>
         </form>
+        <!-- Display city and weather information -->
         <h2 id="city"></h2>
         <h3 id="conditions"></h3>
 
         <div id="infos">
+          <!-- Weather icons -->
           <img id="clearIcon" src="images/clear.svg" alt="clear icon" />
           <img id="cloudIcon" src="images/cloud.svg" alt="cloud icon" />
           <img id="hazeIcon" src="images/haze.svg" alt="haze icon" />
@@ -28,12 +36,14 @@
           <img id="snowIcon" src="images/snow.svg" alt="snow icon" />
           <img id="stormIcon" src="images/storm.svg" alt="storm icon" />
 
+          <!-- Weather information -->
           <p id="temperature"><b>Temperature : 🌡️</b></p>
           <p id="humidity"><b>Humidity : 💧</b></p>
           <p id="windSpeed"><b>Wind speed : 💨</b></p>
         </div>
       </div>
     </main>
+    <!-- Script files -->
     <script src="config.js"></script>
     <script src="main.js"></script>
   </body>
