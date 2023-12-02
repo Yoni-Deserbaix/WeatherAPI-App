@@ -1,8 +1,9 @@
 // Import necessary modules
 const express = require("express"); // Import Express framework
-const path = require("path"); // Import path module
 
 const app = express(); // Create an Express app instance
+
+const path = require("path"); // Import path module
 
 const PORT = 3000; // Define the port number
 
