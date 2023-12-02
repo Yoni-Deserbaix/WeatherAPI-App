@@ -8,7 +8,7 @@ const readFileAsync = promisify(readFile);
 // Define options for reading the file with UTF-8 encoding
 const READ_OPTIONS = { encoding: "utf-8" };
 
-// Export an asynchronous function without any parameters
+// Export an asynchronous function
 module.exports = async () => {
   try {
     // Read the content of the index.html file asynchronously using the defined options
