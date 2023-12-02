@@ -138,7 +138,7 @@ footer {
   .input-container input {
     width: 180px;
     font-size: 15px;
-    padding: 8px;
+    padding: 10px;
   }
 
   .input-container .btn {
@@ -185,7 +185,6 @@ footer {
   .input-container input {
     width: 180px;
     font-size: 15px;
-    padding: 8px;
   }
 
   .input-container .btn {
@@ -233,7 +232,6 @@ footer {
   .input-container input {
     width: 110px;
     font-size: 10px;
-    padding: 8px;
   }
 
   .input-container .btn {
@@ -260,6 +258,7 @@ footer {
     margin-top: 20px;
     font-size: 12px;
   }
+  
   footer {
     font-size: 7px;
   }
