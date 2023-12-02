@@ -75,8 +75,8 @@ The project structure is organized as follows:
 
 This project was an opportunity to improve the following skills:
 - Improve my skills in web development and server-side programming with JavaScript and using frameworks such as Express.js.
-- Utilisation d'API tiers (OpenWeather) pour récupérer des données météorologiques en temps réel.
-- Gestion de la sécurité des données sensibles en stockant la clé API dans un fichier de configuration externe.
+- Using third-party APIs (OpenWeather) to retrieve real-time meteorological data.
+- Managing the security of sensitive data by storing the API key in an external configuration file.
 
 ## Author 👨‍💻
 
