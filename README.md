@@ -1,6 +1,6 @@
 # WeatherAPI-App ☀️🌦️⛅
 
-WeatherAPI-app is an application designed to display real-time weather information for any city using the OpenWeather API. Users can input a city name, and the application will showcase its weather conditions, humidity, temperature, and wind speed. Cette application a été conçue dans le cadre de mon parcours en développement informatique, visant à acquérir et améliorer mes compétences en développement web et en programmation côté serveur.
+WeatherAPI-app is an application designed to display real-time weather information for any city using the OpenWeather API. Users can input a city name, and the application will showcase its weather conditions, humidity, temperature, and wind speed. This application was designed as part of my journey in computer development, aiming to acquire and enhance my skills in web development and server-side programming.
 
 ## Features
 
