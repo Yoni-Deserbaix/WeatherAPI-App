@@ -43,14 +43,15 @@ To run this project locally, follow these steps:
     cd WeatherAPI-app
     ```
 
-3. Install the necessary module:
+3. Install the express module:
 
     ```bash
-    npm install express```
+    npm install express
+    ```
 
 4. Create a `config.js` file inside the `public` directory with the following code:
 
-   ![config.js code] https://github.com/YD-SavvyDev/WeatherAPI-App/blob/main/Screenshots/code-api-key.png
+   ![config.js code](https://github.com/YD-SavvyDev/WeatherAPI-App/blob/main/Screenshots/code-api-key.png)
 
 5. Start the application:
 
