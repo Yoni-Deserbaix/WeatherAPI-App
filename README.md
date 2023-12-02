@@ -22,7 +22,7 @@ The project was developed using the following technologies:
 - Node.js
 - Express.js
 
-The use of Node.js and Express.js facilitated the implementation of server and stock and protect the api key and enhanced my back-end skills. ✨
+The use of Node.js and Express.js facilitated the implementation of server and stock and protect the api key and enhanced my back-end skills. 🌟
 
 ## Usage
 
@@ -49,14 +49,16 @@ To run this project locally, follow these steps:
 4. Create a `config.js` file inside the `public` directory with the following code:
 
    ![config.js code](https://github.com/YD-SavvyDev/WeatherAPI-App/blob/main/Screenshots/code-api-key.png)
+   
+   Make sure to replace "YOUR_API_KEY" with your real OpenWeather API key. This key is necessary to access the OpenWeather API for fetching weather data in your application. Once you've replaced it, your application should be able to make requests to the OpenWeather API successfully.
 
-5. Start the application:
+6. Start the application:
 
     ```bash
     node server.js
     ```
 
-6. Open a web browser and access the application at `http://localhost:3000`. 🌐
+7. Open a web browser and access the application at `http://localhost:3000`. 🌐
 
 ## Project Structure 📁
 
