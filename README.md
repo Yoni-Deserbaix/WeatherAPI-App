@@ -26,6 +26,8 @@ The use of Node.js and Express.js facilitated the implementation of server and s
 
 ## Usage
 
+### Running the Project Locally
+
 To run this project locally, follow these steps:
 
 1. Clone the repository to your local machine:
@@ -46,19 +48,22 @@ To run this project locally, follow these steps:
     npm install express
     ```
 
-4. Create a `config.js` file inside the `public` directory with the following code:
-
+4. API Key Configuration
+    - Create a `config.js` file inside the `public` directory.
+    - Add your OpenWeather API key to `config.js`:
+      
    ![config.js code](https://github.com/YD-SavvyDev/WeatherAPI-App/blob/main/Screenshots/code-api-key.png)
    
-   Make sure to replace "YOUR_API_KEY" with your real OpenWeather API key. This key is necessary to access the OpenWeather API for fetching weather data in your application. Once you've replaced it, your application should be able to make requests to the OpenWeather API successfully.
+    - Replace "YOUR API KEY" with your actual OpenWeather API key.
 
-6. Start the application:
+
+5. Start the application:
 
     ```bash
     node server.js
     ```
 
-7. Open a web browser and access the application at `http://localhost:3000`. 🌐
+6. Open a web browser and access the application at `http://localhost:3000`. 🌐
 
 ## Project Structure 📁
 
