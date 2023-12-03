@@ -16,11 +16,14 @@ WeatherAPI-app is an application designed to display real-time weather informati
 ## Technologies Used 🛠️
 
 The project was developed using the following technologies:
-- HTML
-- CSS
-- JavaScript
-- Node.js
-- Express.js
+- HTML <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="15" alt="html5 logo"  />
+- CSS  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="15" alt="css3 logo"  />
+- JavaScript  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="15" alt="javascript logo"  />
+
+- Node.js  <img src="https://cdn.simpleicons.org/nodedotjs/339933" height="15" alt="nodejs logo"  />
+
+- Express.js  <img src="https://skillicons.dev/icons?i=express" height="15" alt="express logo"  />
+
 
 The use of Node.js and Express.js facilitated the implementation of server and stock and protect the api key and enhanced my back-end skills. 🌟
 
