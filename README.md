@@ -33,7 +33,7 @@ The use of Node.js and Express.js facilitated the implementation of server and s
 
 To run this project locally, follow these steps:
 
-1. Clone the repository to your local machine:
+1. Clone the repository to your local machine   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="15" alt="git logo"  /> :
 
     ```bash
     git clone https://github.com/YD-SavvyDev/WeatherAPI-app.git
