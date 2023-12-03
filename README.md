@@ -70,11 +70,11 @@ To run this project locally, follow these steps:
 The project structure is organized as follows:
 
 - `index.html`: Contains the HTML structure for the WeatherAPI-app.
-- `style.css`: Holds the CSS styles for the application's user interface.
-- `main.js`: Includes the JavaScript code responsible for fetching and displaying weather information.
-- `server.js`: Utilizes Express to handle API requests and serve static files.
--  `main-get.js`: Reads the content of index.html asynchronously using Node.js fs and util modules.
+- `public/style.css`: Holds the CSS styles for the application's user interface.
+- `public/main.js`: Includes the JavaScript code responsible for fetching and displaying weather information.
 - `public/config.js`: Stores the API key for accessing the OpenWeather API.
+- `server.js`: Utilizes Express to handle API requests and serve static files.
+- `main-get.js`: Reads the content of index.html asynchronously using Node.js fs and util modules.
 
 ## Learning Objectives 📚
 
