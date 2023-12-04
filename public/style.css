@@ -1,5 +1,5 @@
 *{
-  margin: 0;
+  margin: 0 ;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
@@ -17,7 +17,7 @@ body {
     justify-content:center;
     align-items: center;
     height: 100vh;
-    background: #43affc;
+    background-image: linear-gradient(to right, #43affc, #297bff);
 }
 
 .card {
@@ -28,11 +28,12 @@ body {
     padding: 15px;
     border-radius: 7px;
     max-width: 450px;
-    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);    
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+   overflow: hidden;
 }
 
 #city {
-    background: #43affc;
+    background-image: linear-gradient(to right, #43affc, #4695f6);
     color: whitesmoke;
     border-radius: 5px;
     padding: 10px;
@@ -76,9 +77,9 @@ img {
 }
 
 .input-container .btn {
-  border: 1px solid #43affc;
+  border: none;
   color: white;
-  background-color: #43affc;
+  background-image: linear-gradient(to right, #43affc, #4695f6);
   outline: none;
   font-size: 15px;
   font-weight: bold;
@@ -109,10 +110,9 @@ img {
 footer {
   display: flex;
   text-align: center;
-  background: #43affc;
   color: white;
   font-size: 15px;
-  padding: 20px;
+  padding: 30px;
 }
 
 @media screen and (max-width: 500px) {
@@ -123,7 +123,7 @@ footer {
     justify-content:center;
     align-items: center;
     max-height: 100vh;
-    background: #43affc;
+    background-image: linear-gradient(to right, #43affc, #297bff);
   }
     
   header {
@@ -131,12 +131,12 @@ footer {
   }
 
   .card {
-    max-width: 300px;
+    width: 380px;
     max-height:100vh ;
   }
 
   .input-container input {
-    width: 180px;
+    width: 280px;
     font-size: 15px;
     padding: 10px;
   }
@@ -225,18 +225,18 @@ footer {
   }
   
   .card {
-    max-width: 200px;
-    max-height:80vh ;
+    max-width: 280px;
+    max-height:120vh ;
   }
 
   .input-container input {
-    width: 110px;
+    width: 200px;
     font-size: 10px;
   }
 
   .input-container .btn {
     font-size: 8px; 
-    padding: 9px;  
+    padding: 12px;  
   }
 
   #city {
@@ -250,7 +250,7 @@ footer {
   }
 
   img {
-    width: 80px;
+    width: 70px;
   }
 
   #infos {

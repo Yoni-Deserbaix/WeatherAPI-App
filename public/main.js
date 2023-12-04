@@ -66,9 +66,9 @@ searchButton.addEventListener("click", () => {
         cityElement.style.display = "block";
         cityElement.innerHTML = `${data.name}, ${data.sys.country}`;
         conditions.innerHTML = `${data.weather[0].description}`;
-        temperature.innerHTML = `<b>🌡️Temperature: ${data.main.temp}°C</b>`;
-        humidity.innerHTML = `<b>💧 Humidity: ${data.main.humidity}%</b>`;
-        windSpeed.innerHTML = `<b>💨 Wind Speed: ${data.wind.speed} m/s</b>`;
+        temperature.innerHTML = `<b>Temperature: ${data.main.temp}°C 🌡️</b>`;
+        humidity.innerHTML = `<b>Humidity: ${data.main.humidity}% 💧</b>`;
+        windSpeed.innerHTML = `<b>Wind Speed: ${data.wind.speed} m/s 💨</b>`;
 
         // Display the weather icon
         const weatherIcon = document.getElementById(weatherIconId);
