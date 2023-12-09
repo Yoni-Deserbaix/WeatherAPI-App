@@ -9,9 +9,10 @@ WeatherAPI-app is an application designed to display real-time weather informati
 
 ## Screenshots 📸
 
-![Home Page](https://github.com/YD-SavvyDev/WeatherAPI-App/blob/main/Screenshots/visual-weather-app-homepage-laptop.png)
-![Weather conditions page](https://github.com/YD-SavvyDev/WeatherAPI-App/blob/main/Screenshots/visual-weather-app-laptop.png)
-![Responsive mobile](https://github.com/YD-SavvyDev/WeatherAPI-App/blob/main/Screenshots/visual_weather-app-mobile.png)
+![Home Page Laptop](https://github.com/YD-SavvyDev/WeatherAPI-App/blob/main/Screenshots/WeatherApp-homepage-laptop.png)
+![Weather conditions Laptop](https://github.com/YD-SavvyDev/WeatherAPI-App/blob/main/Screenshots/WeatherApp-laptop.png)
+![Home Page mobile](https://github.com/YD-SavvyDev/WeatherAPI-App/blob/main/Screenshots/WeatherApp-homepage-mobile.png)
+![Weather conditions Mobile](https://github.com/YD-SavvyDev/WeatherAPI-App/blob/main/Screenshots/WeatherApp-mobile.png)
 
 ## Technologies Used 🛠️
 
