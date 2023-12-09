@@ -78,11 +78,6 @@ searchButton.addEventListener("click", () => {
         searchButton.style.display = "none";
         searchInput.style.display = "none";
         backButton.style.display = "block";
-
-        // Event listener for back button click
-        backButton.addEventListener("click", () => {
-          window.location.reload(); // Refresh the page
-        });
       })
       .catch((error) => {
         console.log("Error fetching data:", error);
