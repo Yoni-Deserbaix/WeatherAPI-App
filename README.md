@@ -9,10 +9,10 @@ WeatherAPI-app is an application designed to display real-time weather informati
 
 ## Screenshots 📸
 
-![Home Page Laptop](https://github.com/YD-SavvyDev/WeatherAPI-App/blob/main/Screenshots/WeatherApp-homepage-laptop.png)
-![Weather conditions Laptop](https://github.com/YD-SavvyDev/WeatherAPI-App/blob/main/Screenshots/WeatherApp-laptop.png)
-![Home Page mobile](https://github.com/YD-SavvyDev/WeatherAPI-App/blob/main/Screenshots/WeatherApp-homepage-mobile.png)
-![Weather conditions Mobile](https://github.com/YD-SavvyDev/WeatherAPI-App/blob/main/Screenshots/WeatherApp-mobile.png)
+![Home Page Laptop](https://github.com/Yoni-Deserbaix/WeatherAPI-App/blob/main/Screenshots/WeatherApp-homepage-laptop.png)
+![Weather conditions Laptop](https://github.com/Yoni-Deserbaix/WeatherAPI-App/blob/main/Screenshots/WeatherApp-laptop.png)
+![Home Page mobile](https://github.com/Yoni-Deserbaix/WeatherAPI-App/blob/main/Screenshots/WeatherApp-homepage-mobile.png)
+![Weather conditions Mobile](https://github.com/Yoni-Deserbaix/WeatherAPI-App/blob/main/Screenshots/WeatherApp-mobile.png)
 
 ## Technologies Used 🛠️
 
@@ -37,7 +37,7 @@ To run this project locally, follow these steps:
 1. Clone the repository to your local machine   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="15" alt="git logo"  /> :
 
     ```bash
-    git clone https://github.com/YD-SavvyDev/WeatherAPI-app.git
+    git clone https://github.com/Yoni-Deserbaix/WeatherAPI-app.git
     ```
 
 2. Navigate to the project directory:
@@ -62,7 +62,7 @@ To run this project locally, follow these steps:
     - Create a `config.js` file inside the `public` directory.
     - Add your OpenWeather API key to `config.js`:
       
-   ![config.js code](https://github.com/YD-SavvyDev/WeatherAPI-App/blob/main/Screenshots/code-api-key.png)
+   ![config.js code](https://github.com/Yoni-Deserbaix/WeatherAPI-App/blob/main/Screenshots/code-api-key.png)
    
     - Replace "YOUR API KEY" with your actual OpenWeather API key.
 
