@@ -52,7 +52,13 @@ To run this project locally, follow these steps:
     npm install express
     ```
 
-4. API Key Configuration
+4. Installe nodemon as a development dependency:
+   
+   ```bash
+   npm install --save-dev nodemon
+   ```
+
+5. API Key Configuration
     - Create a `config.js` file inside the `public` directory.
     - Add your OpenWeather API key to `config.js`:
       
@@ -61,13 +67,13 @@ To run this project locally, follow these steps:
     - Replace "YOUR API KEY" with your actual OpenWeather API key.
 
 
-5. Start the application:
+6. Start the application:
 
     ```bash
     node server.js
     ```
 
-6. Open a web browser and access the application at `http://localhost:3000`. 🌐
+7. Open a web browser and access the application at `http://localhost:3000`. 🌐
 
 ## Project Structure 📁
 
